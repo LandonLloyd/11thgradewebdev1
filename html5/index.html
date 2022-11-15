@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML5 Structure Tags</title>
+    <style>
+      header {
+        background-color: skyblue;
+        height: 100px;
+        width: 1200px;
+      }
+      nav{
+        background-color: yellow;
+        height: 100px;
+        width: 1200px;
+        margin-top: -22px;
+      }
+      ul{
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+      }
+      li {
+        display: inline-block;
+        background-color: cyan;
+        text-align: center;
+        width: 200px;
+        margin-left: 60px;
+        padding: 8px;
+        border-radius: 10px;
+      }
+      main{
+        background-color: grey;
+        height: 600px;
+        width: 1200px;
+        margin-top: -22px;
+      }
+      .main{
+        background-color: pink;
+        height: 350px;
+        width: 1120px;
+        margin-top: -22px;
+        margin-left: 30px;
+        margin-right: 20px;
+      }
+      article{
+        background-color: orange;
+        height: 300px;
+        width: 580px;
+        margin-top: -22px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 0 20px;
+        float: left;
+      }
+      aside{
+        background-color: green;
+        height: 300px;
+        width: 380px;
+        margin-top: -22px;
+        padding: 0 20px;
+        float: left;
+      }
+      .below{
+        background-color: tan;
+        height: 200px;
+        width: 1120px;
+        margin-top: -22px;
+        margin-left: 30px;
+        margin-right: 20px;
+      }
+      footer{
+        background-color: aqua;
+        height: 100px;
+        width: 1200px;
+        margin-top: -22px;;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h4>This is a HEADER TAG</h4>
+      <h4>A great place to put a logo or company name</h4>
+    </header>
+    <nav>
+      <h4>This is a NAVIGATION TAG</h4>
+      <ul>
+        <li><a href="http://www.coolmathgames.com" target="_blank">Cool Math Games</a></li>
+        <li><a href="http://www.github.com" target="_blank">GitHub</a></li>
+        <li><a href="http://www.w3schools.com" target="_blank">W3Schools</a></li>
+        <li><a href="http://www.stackoverflow.com" target="_blank">Stack Overflow</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h4>This is the MAIN TAG</h4>
+      <section class="main">
+        <h4>This is the SECTION TAG - Could be used to separate content and even make an area a different color. Notice how the ASIDE and ARTICLE tags below are "nested" inside of this tag.</h4>
+        <article>
+          <h4>This is the ARTICLE TAG</h4>
+        </article>
+        <aside>
+          <h4>This is the ASIDE TAG</h4>
+          <p>This is usually a place to type something that supports the content of the website but can stand on its own as information even if it wasn't part of this website ("aside" from this site).</p>
+        </aside>
+      </section>
+      <section class="below">
+        <h4>This is another SECTION TAG</h4>
+        <p>I could type a paragraph inside of this section. I can also add some random text from the cupcake ipsum website :). This SECTION tag is not nested inside the pink one so that is why it shows up below it as a completely separate section</p>
+      </section>
+    </main>
+    <footer>
+      <h4>This is a FOOTER TAG</h4>
+      <p>This would be a great place to put things that you would want to have at the bottom of every page of your website and just repeat this footer on each page. Things like "contact us" or webmaster's email address, etc.</p>
+    </footer>
+  </body>
+</html>

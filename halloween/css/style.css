@@ -1,0 +1,84 @@
+body{
+  background-color: #F74F00;
+  color: #F2D307;
+  font-family: 'Peralta', cursive;
+  height: 90vh;
+}
+
+h1{
+  text-align: center;
+  border-bottom: 1px solid #F2D307;
+  font-size: 60px;
+}
+
+p{
+  font-family: 'Peralta', cursive;
+}
+
+
+#title{
+  font-family: "Comforter Brush", cursive;
+}
+
+a {
+  text-decoration: none;
+  color: #F2D307;
+  font-family: 'Peralta', cursive;
+}
+
+a:hover {
+  color: #E69812;
+  text-decoration: underline;
+}
+
+nav{
+  height: 75px;
+  width: 1900px;
+  margin-top: -22px;
+  border: 1px dashed #F2D307;
+  border-radius: 5px;
+}
+
+ul{
+  list-style-type: none;
+  overflow: hidden;
+}
+
+li {
+  display: inline-block;
+  text-align: center;
+  width: 200px;
+  margin-left: 200px;
+  font-size: 20px;
+}
+
+.main{
+  height: 550px;
+  width: 1900px;
+  background-color: #FC7F08;
+}
+
+article{
+  float: left;
+  height: 600px;
+  width: 450px;
+  text-align: center;
+  margin: 0;
+}
+
+footer{
+  height: 75px;
+  width: 1900px;
+  border: 1px solid #f2D307;
+  float: left;
+  text-align: center;
+}
+
+iframe{
+  height: 500px;
+  width: 1300px;
+  padding-top: 25px;
+  padding-left: 75px;
+}
+
+
